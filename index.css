@@ -1,0 +1,21 @@
+
+/**
+ * Wootric logo.
+ */
+
+.logo[data-logo="Wootric"] {
+  width: 0;
+}
+
+.logo[data-logo="Wootric"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Wootric"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Wootric"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
